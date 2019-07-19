@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DbConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ConnectionStrings>
-    <DataConnection Name="ReadDB" ConnectionString="server =47.88.230.51;port=3306; user id = rickhao; password = 123456; database = rickhao" />
+    <DataConnection Name="ReadDB" ConnectionString="server =localhost; user id = rickhao; password = 123456; database = rickhao" />
   </ConnectionStrings>
   <SqlConfigs>
     <DbSql CommandName="GetUsers" Type="Text" ConnectionName="ReadDB">
