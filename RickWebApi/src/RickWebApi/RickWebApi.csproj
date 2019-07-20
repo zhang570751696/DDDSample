@@ -16,6 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="5.0.0" />
     <PackageReference Include="MediatR" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
